@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": [
+            {
+              "text": "Armor Stand Animator"
+            },
+            {
+              "text": "(v0.5)",
+              "color": "blue",
+              "bold": true
+            }
+        ],
+        "description": "Helps creators to easily animate armor stands.",
+        "icon": {
+            "item": "minecraft:armor_stand",
+            "nbt": "{}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:jeffwooden",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand] unless score @s jw_aa_id matches 1.. at @s run function jw_aa:set_id
