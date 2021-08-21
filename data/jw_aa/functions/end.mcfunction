@@ -1,0 +1,1 @@
+tag @s remove jw_aa.animating
