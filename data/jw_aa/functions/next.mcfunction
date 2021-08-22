@@ -1,5 +1,6 @@
 data modify storage jw:aa temp set from entity @s ArmorItems[3].tag.jw_aa.temp
 data modify entity @s Pose set from entity @s ArmorItems[3].tag.jw_aa.temp[0].Pose
+execute if data entity @s ArmorItems[3].tag.jw_aa.temp[0].Rot run data modify entity @s Rotation[0] set from entity @s ArmorItems[3].tag.jw_aa.temp[0].Rot
 execute store result score @s jw_aa_delay run data get entity @s ArmorItems[3].tag.jw_aa.temp[0].delay
 data remove entity @s ArmorItems[3].tag.jw_aa.temp[0]
 execute store result score length jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.temp
