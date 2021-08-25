@@ -33,7 +33,7 @@ I developed a plugin to easily create animation and export it to a .mcfunction f
 Check it here: https://github.com/JeffWooden/ArmorStandAnimator-BlockbenchPlugin
 
 ## License
-[Armor Stand Animator](%Datapack Project Page%) © 2021 by [JeffWooden](https://www.planetminecraft.com/member/jeffwooden/) is licensed under [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
+[Armor Stand Animator](https://www.planetminecraft.com/data-pack/armor-stand-animator/) © 2021 by [JeffWooden](https://www.planetminecraft.com/member/jeffwooden/) is licensed under [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
 If you wish to present this datapack, please make sure to provide appropriate credits like these:
 ```
 Armor Stand Animator by JeffWooden
