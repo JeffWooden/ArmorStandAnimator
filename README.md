@@ -11,6 +11,7 @@ Both need to be executed as the selected armor stand. The first function loads a
 An animation is loaded in the `jw:aa` storage at the path `animation`. Here follows the animation's structure.
 ```
 {
+	reversed: [1],			# Your animation keyframes have been reversed. (e.g. to obtain [1,2,3,4], keyframes order is set to [4,3,2,1])
 	looping: <0|1>, 			# Does the animation restarts itself at the end of it.
 	resetToDefault: <0|1>,		# Does the armorstand goes back at its original place and pose when the animation finishes.
 	keyframes: Array<Keyframe>	# List of keyframes
@@ -24,7 +25,7 @@ A keyframe will be decomposed like that
 	delay: <Int>, 			# Number of ticks after what the next keyframe is read.
 	Pose: <Compound>, 		# The pose that the armorstand takes, same as the NBT (Cf. https://minecraft.fandom.com/wiki/Armor_Stand#Entity_data).
 	Pos: Array<double> 		# Relative position from the origin.
-	Rot: float 				# Rotation applied around the Y axis.
+	Rotation: Array<float> 				# Rotation applied around the Y axis.
 }
 ```
 
