@@ -1,9 +1,7 @@
 data modify storage jw:aa temp set from entity @s ArmorItems[3].tag.jw_aa.temp[-1]
-data remove storage jw:aa NBT
-data modify storage jw:aa NBT.Pose set from storage jw:aa temp.Pose
-execute if data storage jw:aa temp.Rot run data modify entity @s Rotation[0] set from storage jw:aa temp.Rot
+execute if data storage jw:aa temp.Rotation run data modify storage jw:aa temp.Rotation[1] set from entity @s Rotation[1]
 execute if data storage jw:aa temp.Pos run function jw_aa:next/position
-data modify entity @s {} merge from storage jw:aa NBT
+data modify entity @s {} merge from storage jw:aa temp
 execute store result score @s jw_aa_delay run data get storage jw:aa temp.delay
 data remove entity @s ArmorItems[3].tag.jw_aa.temp[-1]
 scoreboard players remove @s jw_aa_calc 1
