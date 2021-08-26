@@ -1,4 +1,3 @@
-data modify storage jw:aa temp set from entity @s ArmorItems[3].tag.jw_aa.temp
 data modify entity @s Pose set from entity @s ArmorItems[3].tag.jw_aa.temp[0].Pose
 execute if data entity @s ArmorItems[3].tag.jw_aa.temp[0].Rot run data modify entity @s Rotation[0] set from entity @s ArmorItems[3].tag.jw_aa.temp[0].Rot
 execute if data entity @s ArmorItems[3].tag.jw_aa.temp[0].Pos run function jw_aa:next/position
