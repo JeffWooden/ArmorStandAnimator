@@ -1,6 +1,6 @@
-execute store result score a jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.temp[0].Pos[0] 100
-execute store result score b jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.temp[0].Pos[1] 100
-execute store result score c jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.temp[0].Pos[2] 100
+execute store result score a jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.temp[-1].Pos[0] 100
+execute store result score b jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.temp[-1].Pos[1] 100
+execute store result score c jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.temp[-1].Pos[2] 100
 
 execute store result score x jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.Pos[0] 100
 execute store result score y jw_aa_calc run data get entity @s ArmorItems[3].tag.jw_aa.Pos[1] 100
